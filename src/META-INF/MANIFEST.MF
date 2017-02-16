@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Class-Path: jinput.jar pubnub-gson-4.3.0-all.jar jinput-test.jar teleg
+ rambots-2.4.4.3-jar-with-dependencies.jar mraa.jar upm_grove.jar
+Main-Class: Main
+

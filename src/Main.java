@@ -35,6 +35,7 @@ public class Main {
         boolean enableController = true;
 
         SensorsManager sensorsManager = new SensorsManager();
+
         Scanner sc = null;
         try {
             sc = new Scanner(new File("./tokens"));

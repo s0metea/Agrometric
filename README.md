@@ -1,9 +1,11 @@
 #*Agrometric*
-**Perfect IoT solution for the smartest farmers (For you)**
+Мониторинг и аналитика для умных фермеров
+
+(Для тебя)
 
 ##Запуск jar файла:
-`java -jar Agrometric.jar
-`
+`java -jar Agrometric.jar`
+
 ##Включение Bluetooth:
 
 `rfkill unblock bluetooth`

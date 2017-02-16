@@ -112,15 +112,71 @@ public class SensorsManager {
         this.speed = speed;
     }
 
-    public void setFuel(float fuel) {
-        this.fuel = fuel;
-    }
-
     public float getSpeed() {
         return speed;
     }
 
     public float getFuel() {
         return fuel;
+    }
+
+    public float getMoisture() {
+        return moisture;
+    }
+
+    public void setMoisture(float moisture) {
+        this.moisture = moisture;
+    }
+
+    public float getTemperature() {
+        return temperature;
+    }
+
+    public void setTemperature(float temperature) {
+        this.temperature = temperature;
+    }
+
+    public float getPh() {
+        return ph;
+    }
+
+    public void setPh(float ph) {
+        this.ph = ph;
+    }
+
+    public float getPressure() {
+        return pressure;
+    }
+
+    public void setPressure(float pressure) {
+        this.pressure = pressure;
+    }
+
+    public float getWaterLevel() {
+        return waterLevel;
+    }
+
+    public void setWaterLevel(float waterLevel) {
+        this.waterLevel = waterLevel;
+    }
+
+    public float getLat() {
+        return lat;
+    }
+
+    public void setLat(float lat) {
+        this.lat = lat;
+    }
+
+    public float getLng() {
+        return lng;
+    }
+
+    public void setLng(float lng) {
+        this.lng = lng;
+    }
+
+    public JsonObject getSensorsJSON() {
+        return sensorsJSON;
     }
 }
