@@ -1,12 +1,12 @@
-#*Agrometric*
+# *Agrometric*
 Мониторинг и аналитика для умных фермеров
 
 (Для тебя)
 
-##Запуск jar файла:
+## Запуск jar файла:
 `java -jar Agrometric.jar`
 
-##Включение Bluetooth:
+## Включение Bluetooth:
 
 `rfkill unblock bluetooth`
 
